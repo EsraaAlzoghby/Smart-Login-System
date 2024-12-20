@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fredericka+the+Great&family=Ga+Maamli&family=Playwrite+AU+TAS+Guides&family=Playwrite+DE+Grund+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black">
+<section >
+    <div class="container w-50 text-warning">
+      <div id="ddddddd">
+        <div class="shadow-lg p-3 mb-5 rounded my-5 bg-black" >
+        <h1 class=" text-capitalize text-center my-5 mt-5">smart login system</h1>
+          <div class="mb-3">
+            <input type="email" class="w-100" id="userEmailInput" placeholder="Enter your email">
+          </div>
+          <div id="alertInvalidEmail" class="alert alert-warning d-none">
+            Please enter a valid email format (e.g. user@example.com).
+          </div>
+          <div class="mb-3">
+            <input type="password" id="userPassInput" class="w-100" aria-describedby="passwordHelpBlock" placeholder="Enter your password">
+          </div>
+          <div id="alertInvalidPassword" class="alert alert-warning d-none">
+            Password must be at least 8 characters, containing uppercase, lowercase, numbers, and a special character.
+          </div>
+          <button type="button"id="buttonLogin" class="btn btn-warning w-100 my-3">Login</button>
+          <div id="alertEmailIncorrect" class="alert alert-warning d-none">
+            Incorrect email or password.
+          </div>
+        <div id="alertSuccessHome" class="alert alert-warning d-none">
+          Login successful! Redirecting to home...
+        </div>
+          <p class="my-2 text-center fs-5">Don’t have an account? <a class="linkSign" href="signup.html"> Sign Up</a></p>
+      </div></div>
+    </div>
+</section>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

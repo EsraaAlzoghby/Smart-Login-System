@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.shadow-lg{
+    box-shadow: 0 1rem 3rem rgba(236, 223, 99, 0.3)!important;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+input{
+    margin: 10px 0;
+    padding: 6px 12px ;
+    background-color:black;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 0.375rem;
+    color: white;
+
+}
+
+input::placeholder{
+    color: rgb(211, 205, 205);
+    font-weight: lighter;
+}
+input:focus{
+    border-color:#ffc107 !important ;
+}
